@@ -1,0 +1,41 @@
+/*主页面和子页面相同的样式都放在这里面*/
+
+* {
+    box-sizing: border-box;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::after, .clearfix::before {
+    display: table;
+    content: "";
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a:hover {
+    color: #00b6e8;
+}
+
+body {
+    width: 100%;
+}
+
+/* 版心 */
+
+.container {
+    width: 1556px;
+    margin: 0 auto;
+}
