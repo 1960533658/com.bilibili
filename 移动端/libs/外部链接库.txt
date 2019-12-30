@@ -1,0 +1,2 @@
+百度搜索nec css   即可获取(在框架中寻找reset目录中的代码)初始化网页css文件
+http://nec.netease.com/framework/css-reset.html
