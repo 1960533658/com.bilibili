@@ -1,3 +1,13 @@
+body {
+  background-color: #f5f5f5;
+}
+.container2 {
+  width: 970px;
+  margin: 0 auto;
+}
+img {
+  width: 100%;
+}
 /* 一周年庆开始 */
 .anniversary {
   font-size: 0;
@@ -5,7 +15,7 @@
   height: 180px;
   width: 100%;
   background: skyblue;
-  background-image: url('../images/anniversary.png');
+  background-image: url('../images/about.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -28,7 +38,7 @@
 }
 .search-left li a {
   font-size: 16px;
-  color: skyblue;
+  color: #000;
 }
 .input {
   position: absolute;
@@ -89,181 +99,13 @@
 }
 /* 登录 结束 */
 /* 一周年庆结束 */
-/* 分类导航 开始 */
-.typenav {
-  margin-top: 8px;
-  padding-bottom: 32px;
-  font-size: 14px;
-  border-bottom: 1px solid #eeeeee;
+.about {
+  margin-top: 11px;
+  padding-bottom: 10px;
 }
-.typenav-left {
-  padding-right: 30px;
-  padding-top: 5px;
+.about li {
+  margin-bottom: 11px;
 }
-.typenav-left a {
-  display: block;
-  text-align: center;
-}
-.typenav-left .fl div {
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  margin-bottom: 8px;
-  font-size: 25px;
-  color: #fff;
-  line-height: 42px;
-}
-.typenav-left .fl:nth-child(2) {
-  padding-left: 24px;
-  padding-right: 24px;
-}
-.typenav-left .fl div {
-  background: #ff5c7c;
-}
-.typenav-left .fl:first-child {
-  padding-left: 14px;
-}
-.typenav-middle {
-  width: 1047px;
-  border-left: 1px solid #e7e7e7;
-  border-right: 1px solid #e7e7e7;
-  padding: 0 32px 0 22px;
-  margin-top: 12px;
-}
-.typenav-middle li {
-  width: 10%;
-  float: left;
-  font-size: 0;
-}
-/* 选定10倍数行,与+后面的数组相关 */
-.typenav-middle li:nth-child(2n+10) {
-  padding-right: 0px;
-}
-.typenav-middle li:nth-last-child(-n+10) {
-  margin-top: 20px;
-}
-.typenav-middle li span:first-child {
-  padding-right: 3px;
-  font-size: 15px;
-}
-.typenav-middle li span:last-child {
-  display: inline-block;
-  transform: translateY(-2px);
-  width: 30px;
-  font-size: 12px;
-  text-align: center;
-  border-radius: 2px;
-  background: #73c9e5;
-}
-/* svg标签(彩色字体图标) */
-.typenav-right {
-  width: 245px;
-  padding: 8px 0 0 25px;
-}
-svg {
-  width: 25px;
-  height: 25px;
-  font-size: 14px;
-  vertical-align: bottom;
-}
-.typenav-right ul li {
-  width: 33.33%;
-  float: left;
-}
-.typenav-right li span {
-  margin-bottom: 3px;
-  display: inline-block;
-}
-.typenav-right li:nth-last-child(-n+3) {
-  margin-top: 10px;
-}
-/* 分类导航 结束 */
-.icons {
-  background-image: url(../images/icons.png);
-}
-/* 在线列表 开始 */
-.onlineh {
-  border-bottom: 1px solid #eeeeee;
-}
-.onlineh h3 {
-  line-height: 65px;
-  font-size: 20px;
-  font-weight: 400;
-}
-.online ul {
-  width: 100%;
-}
-.online ul li {
-  width: 208px;
-  margin-right: 25px;
-  float: left;
-}
-.online ul li a {
-  display: inline-block;
-  border-radius: 4px;
-}
-.online ul li a .top img {
-  width: 100%;
-  height: 142px;
-  margin-top: 15px;
-  border-radius: 3px;
-}
-.online ul li a .middle {
-  padding: 14px 0 0 14px;
-  border-left: 1px solid #e5e9ef;
-  border-right: 1px solid #e5e9ef;
-}
-.online ul li a .middle p {
-  height: 36px;
-  color: #222;
-  font-size: 14px;
-  padding-bottom: 30px;
-}
-.online ul li a .middle .show span {
-  color: #98a2aa;
-  font-size: 13px;
-}
-.online ul li a .middle .show span:first-child {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url(../images/icons.png);
-  background-position: -282px -90px;
-}
-.online ul li a .middle .show span:nth-child(3) {
-  display: inline-block;
-  width: 12px;
-  height: 12px;
-  background-image: url(../images/icons.png);
-  background-position: -282px -218px;
-}
-.online ul li a .middle .bottom {
-  padding-top: 10px;
-  padding-bottom: 14px;
-}
-.online ul li a .middle .bottom span {
-  color: #98a2aa;
-  font-size: 13px;
-}
-.online ul li a .foot {
-  line-height: 31px;
-  text-align: center;
-  background-color: #e5e9ef;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  color: #000;
-  font-size: 14px;
-}
-.online ul li a .foot b {
-  padding-right: 5px;
-}
-.online ul li:nth-child(5n) {
-  margin-right: 0;
-}
-.online ul li:nth-last-child(-n+5) {
-  margin-bottom: 20px;
-}
-/* 在线列表 结束 */
 /* 底部 开始 */
 .footer-banner {
   width: 100%;
@@ -387,7 +229,3 @@ svg {
   margin-top: 0;
 }
 /* 底部 结束 */
-.banner2 {
-  width: 1160px;
-  margin: 0 auto;
-}
